@@ -1,0 +1,1239 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>senga mckerr</Author>
+  <LastAuthor>Microsoft Office User</LastAuthor>
+  <Created>2016-07-13T17:15:14Z</Created>
+  <LastSaved>2016-07-26T16:39:29Z</LastSaved>
+  <Version>15.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <PixelsPerInch>96</PixelsPerInch>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17460</WindowHeight>
+  <WindowWidth>23040</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>460</WindowTopY>
+  <TabRatio>600</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s17">
+   <Borders/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s18">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s19">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s20">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s21">
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s22">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s23">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s24">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s25">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s26">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s27">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s28">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s29">
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s30">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s31">
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s32">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s33">
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s34">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s35">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s36">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s37">
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s38">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s39">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s40">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s41">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s42">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s43">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s44">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s45">
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s46">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s47">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s48">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s49">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s50">
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s51">
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s52">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s53">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s54">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s55">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s56">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s57">
+   <Borders/>
+  </Style>
+  <Style ss:ID="s58">
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s59">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s60">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s61">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s62">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+  </Style>
+  <Style ss:ID="s66">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#A2BD90" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Borders/>
+   <Interior ss:Color="#A2BD90" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Interior ss:Color="#A2BD90" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Interior ss:Color="#A2BD90" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior ss:Color="#A2BD90" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s71">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#FFF58C" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s72">
+   <Borders/>
+   <Interior ss:Color="#FFF58C" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s73">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Interior ss:Color="#FFF58C" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s74">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Interior ss:Color="#FFF58C" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s75">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior ss:Color="#FFF58C" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s76">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#FFF58C" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s77">
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#FFF58C" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s78">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#FFF58C" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s79">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#FFF58C" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s80">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior ss:Color="#FFF58C" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s81">
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior ss:Color="#FFF58C" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s82">
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s83">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#FFF58C" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s84">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#FFF58C" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="dd\-mmm"/>
+  </Style>
+  <Style ss:ID="s85">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#FFF58C" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s86">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#FFF58C" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s87">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#FFF58C" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s88">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#FFF58C" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s89">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s90">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s91">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="14" ss:ExpandedRowCount="54" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="12"/>
+   <Column ss:AutoFitWidth="0" ss:Width="221"/>
+   <Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="91"/>
+   <Column ss:AutoFitWidth="0" ss:Width="79"/>
+   <Column ss:AutoFitWidth="0" ss:Width="166"/>
+   <Column ss:AutoFitWidth="0" ss:Width="67"/>
+   <Column ss:AutoFitWidth="0" ss:Width="123"/>
+   <Column ss:AutoFitWidth="0" ss:Width="72"/>
+   <Column ss:AutoFitWidth="0" ss:Width="89"/>
+   <Column ss:AutoFitWidth="0" ss:Width="55"/>
+   <Column ss:StyleID="s91" ss:AutoFitWidth="0" ss:Width="48"/>
+   <Column ss:AutoFitWidth="0" ss:Width="124"/>
+   <Column ss:AutoFitWidth="0" ss:Width="16"/>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">competition </Data></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">age </Data></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">weapon </Data></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">location</Data></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">venue </Data></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">travel </Data></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">accommodation</Data></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">Month</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">day</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">going to</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">entered</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">notes</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">U20 BRC Kidderminster Epee</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">U20</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Epee</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Kidderminster</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Bromsgrove school</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">X</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">X</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">August</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">Sun 28</Data></Cell>
+    <Cell ss:StyleID="s55"><Data ss:Type="String">no</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Smith trophy</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">U18</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Foil</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Dunblane</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Dunblane centre</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+    <Cell ss:StyleID="s78"/>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">September</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">Sun 11</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">X</Data></Cell>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">U17 BRC Leon paul foil</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="String">U17</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Foil</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="String">London</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Leon paul fencing centre</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">X</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">X</Data></Cell>
+    <Cell ss:StyleID="s35"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">Sat 17</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">no</Data></Cell>
+    <Cell ss:StyleID="s34"/>
+    <Cell ss:StyleID="s37"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">SFA Training day</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Epee</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Dunfermline</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Queen Anne high school</Data></Cell>
+    <Cell ss:StyleID="s81"/>
+    <Cell ss:StyleID="s81"/>
+    <Cell ss:StyleID="s81"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Sun 18</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">X</Data></Cell>
+    <Cell ss:StyleID="s34"/>
+    <Cell ss:StyleID="s37"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Newcastle open</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Open</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Epee and foil </Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Newcastle</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Newcastle fencing centre</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">train</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">central</Data></Cell>
+    <Cell ss:StyleID="s81"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">24 &amp; 25</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">X</Data></Cell>
+    <Cell ss:StyleID="s34"/>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">book hotel   open return</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s38"><Data ss:Type="String">Bang and Olufsen U17 BRC Epee</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">U17</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">Epee</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">Canterbury</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">Kings school Canterbury</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">X</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">X</Data></Cell>
+    <Cell ss:StyleID="s40"/>
+    <Cell ss:StyleID="s41"><Data ss:Type="String">Sun 25</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">no</Data></Cell>
+    <Cell ss:StyleID="s56"/>
+    <Cell ss:StyleID="s42"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">YDS Round 1</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">U15</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Epee and foil </Data></Cell>
+    <Cell ss:StyleID="s77"/>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Dunfermline High School</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+    <Cell ss:StyleID="s83"/>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">October</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">1 &amp; 2</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">X</Data></Cell>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Holyrood Cup</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">????</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Epee and foil </Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Edinburgh</Data></Cell>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">8 &amp; 9</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">X</Data></Cell>
+    <Cell ss:StyleID="s44"/>
+    <Cell ss:StyleID="s45"><Data ss:Type="String">Saturday only</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">SFA Training day</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Epee</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Dunfermline</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Queen Anne high school</Data></Cell>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Sun 9</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">X</Data></Cell>
+    <Cell ss:StyleID="s44"/>
+    <Cell ss:StyleID="s45"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">U17 BRC Leon paul Epee</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">U17</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Epee</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">London</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Leon paul fencing centre</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">train booked</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">air bnb booked</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Sat 15</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">X</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">yes</Data></Cell>
+    <Cell ss:StyleID="s45"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s43"><Data ss:Type="String">Scottish open</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Open</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Epee and foil </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Edinburgh</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Heriot Watt university</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">15 &amp; 16</Data></Cell>
+    <Cell ss:StyleID="s44"><Data ss:Type="String">no</Data></Cell>
+    <Cell ss:StyleID="s44"/>
+    <Cell ss:StyleID="s45"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">International qualifier 1</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">U15</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">Epee and foil </Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">Dunfermline</Data></Cell>
+    <Cell ss:StyleID="s86"/>
+    <Cell ss:StyleID="s86"/>
+    <Cell ss:StyleID="s87"/>
+    <Cell ss:StyleID="s86"/>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Sun 30</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">X</Data></Cell>
+    <Cell ss:StyleID="s48"/>
+    <Cell ss:StyleID="s49"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">YDS Round 2</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">U15</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Epee and foil </Data></Cell>
+    <Cell ss:StyleID="s77"/>
+    <Cell ss:StyleID="s77"/>
+    <Cell ss:StyleID="s77"/>
+    <Cell ss:StyleID="s77"/>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">November</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">5 &amp; 6</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">X</Data></Cell>
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">LPJS Millfield Epee</Data></Cell>
+    <Cell ss:StyleID="s47"><Data ss:Type="String">U15</Data></Cell>
+    <Cell ss:StyleID="s47"><Data ss:Type="String">Epee and foil </Data></Cell>
+    <Cell ss:StyleID="s47"><Data ss:Type="String">Somerset</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Millfield school</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="String">X</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="String">X</Data></Cell>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Sun 13</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="String">no</Data></Cell>
+    <Cell ss:StyleID="s53"/>
+    <Cell ss:StyleID="s52"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">International qualifier 2</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">U15</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Epee and foil</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Dunfermline</Data></Cell>
+    <Cell ss:StyleID="s77"/>
+    <Cell ss:StyleID="s77"/>
+    <Cell ss:StyleID="s77"/>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">December</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Sat 10</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">X</Data></Cell>
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">M8 open </Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">Open</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">Epee and foil</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">Bathgate</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">Bathgate academy sports centre</Data></Cell>
+    <Cell ss:StyleID="s86"/>
+    <Cell ss:StyleID="s86"/>
+    <Cell ss:StyleID="s86"/>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">10 &amp;11</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">X</Data></Cell>
+    <Cell ss:StyleID="s53"/>
+    <Cell ss:StyleID="s52"><Data ss:Type="String">Sunday only</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">International qualifier</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">U15</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Epee and foil</Data></Cell>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">January</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Sat 14</Data></Cell>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">if not qualified yet</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s43"><Data ss:Type="String">U20 BRC Leon paul Epee</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">U20</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Epee</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">London</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Leon paul fencing centre</Data></Cell>
+    <Cell ss:StyleID="s44"><Data ss:Type="String">X</Data></Cell>
+    <Cell ss:StyleID="s44"><Data ss:Type="String">X</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Sat 14</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s58"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">YDS 3</Data></Cell>
+    <Cell ss:StyleID="s47"><Data ss:Type="String">U15</Data></Cell>
+    <Cell ss:StyleID="s47"><Data ss:Type="String">Epee and foil</Data></Cell>
+    <Cell ss:StyleID="s47"/>
+    <Cell ss:StyleID="s47"><Data ss:Type="String">High School of Dundee</Data></Cell>
+    <Cell ss:StyleID="s47"/>
+    <Cell ss:StyleID="s47"/>
+    <Cell ss:StyleID="s47"/>
+    <Cell ss:StyleID="s47"><Data ss:Type="String">21 &amp; 22</Data></Cell>
+    <Cell ss:StyleID="s47"/>
+    <Cell ss:StyleID="s53"/>
+    <Cell ss:StyleID="s52"><Data ss:Type="String">if not qualified yet</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Merseyside open</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Open</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Epee and foil</Data></Cell>
+    <Cell ss:StyleID="s50"/>
+    <Cell ss:StyleID="s50"/>
+    <Cell ss:StyleID="s54"><Data ss:Type="String">X</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="String">X</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="String">February</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">11 &amp; 12</Data></Cell>
+    <Cell ss:StyleID="s50"/>
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">SFA Training day</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Epee  </Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Dunfermline</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Queen Anne high school</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Sun 12</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">X</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s58"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s43"><Data ss:Type="String">Tri Weapon Cup</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s44"/>
+    <Cell ss:StyleID="s44"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:StyleID="s44"/>
+    <Cell ss:StyleID="s44"/>
+    <Cell ss:StyleID="s58"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">British schools teams</Data></Cell>
+    <Cell ss:StyleID="s47"><Data ss:Type="String">U15/O15</Data></Cell>
+    <Cell ss:StyleID="s47"><Data ss:Type="String">Epee and foil</Data></Cell>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:StyleID="s53"><Data ss:Type="String">X</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="String">X</Data></Cell>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:StyleID="s47"><Data ss:Type="String">25 &amp; 26 </Data></Cell>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:StyleID="s53"/>
+    <Cell ss:StyleID="s52"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Dundee duel</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Open</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Epee</Data></Cell>
+    <Cell ss:StyleID="s50"/>
+    <Cell ss:StyleID="s50"/>
+    <Cell ss:StyleID="s50"/>
+    <Cell ss:StyleID="s50"/>
+    <Cell ss:StyleID="s50"><Data ss:Type="String">March</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Sat 4</Data></Cell>
+    <Cell ss:StyleID="s50"/>
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">Challenge Wratislavia</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">U15</Data></Cell>
+    <Cell ss:StyleID="s47"><Data ss:Type="String">Epee and foil</Data></Cell>
+    <Cell ss:StyleID="s47"><Data ss:Type="String">Poland </Data></Cell>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s53"><Data ss:Type="String">Scotland team </Data></Cell>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:StyleID="s47"><Data ss:Type="String">Thu 16 - Mon 20</Data></Cell>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:StyleID="s53"/>
+    <Cell ss:StyleID="s52"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Elite Epee event weekend</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">U17</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Epee</Data></Cell>
+    <Cell ss:StyleID="s50"/>
+    <Cell ss:StyleID="s50"/>
+    <Cell ss:StyleID="s54"><Data ss:Type="String">X</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="String">X</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="String">April</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">1 &amp; 2</Data></Cell>
+    <Cell ss:StyleID="s50"/>
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s43"><Data ss:Type="String">Glasgow open</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Open</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Epee and foil</Data></Cell>
+    <Cell ss:StyleID="s57"/>
+    <Cell ss:StyleID="s57"/>
+    <Cell ss:StyleID="s57"/>
+    <Cell ss:StyleID="s57"/>
+    <Cell ss:StyleID="s57"/>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">8 &amp; 9</Data></Cell>
+    <Cell ss:StyleID="s57"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s58"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s43"><Data ss:Type="String">YDS 4</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">U15</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Epee and foil</Data></Cell>
+    <Cell ss:StyleID="s57"/>
+    <Cell ss:StyleID="s57"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s57"/>
+    <Cell ss:StyleID="s57"/>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">22 &amp; 23</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">no</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s58"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">BYC'S</Data></Cell>
+    <Cell ss:StyleID="s47"><Data ss:Type="String">U16</Data></Cell>
+    <Cell ss:StyleID="s47"><Data ss:Type="String">Epee and foil</Data></Cell>
+    <Cell ss:StyleID="s47"><Data ss:Type="String">Sheffield</Data></Cell>
+    <Cell ss:StyleID="s47"><Data ss:Type="String">EIS arena</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">X</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">X</Data></Cell>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:StyleID="s47"><Data ss:Type="String">29 &amp; 30</Data></Cell>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:StyleID="s53"/>
+    <Cell ss:StyleID="s52"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:Index="14" ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:Index="14" ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:Index="14" ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:Index="14" ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:Index="14" ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:Index="14" ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:Index="14" ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:Index="14" ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:Index="14" ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:Index="14" ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:Index="14" ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:Index="14" ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:Index="14" ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:Index="14" ss:StyleID="s21"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>-3</HorizontalResolution>
+    <VerticalResolution>0</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>8</ActiveRow>
+     <ActiveCol>12</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
